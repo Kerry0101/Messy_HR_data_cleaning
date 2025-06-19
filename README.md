@@ -1,0 +1,4 @@
+The dataset contained numerous NaN values in the "Age" column, which should be converted to proper numeric format and filled appropriately to maintain data integrity.
+Second, I noticed text-based numbers in the "Age" column (like "thirty") and spelled-out values in the "Salary" column (such as "SIXTY THOUSAND"), I converted them to their numeric equivalents by the help of AI to
+ create a custom functions. Also, The "Joining Date" column contained multiple date formats including text-based dates ("April 5, 2018") and few numeric formats which is I think, it's not a standard format; ("01/15/2020", "03-25-2019"). 
+ So I follow this format "YYYY/MM/DD" using pandas' datetime conversion capabilities. Lastly, numeric columns with decimal values like "Salary" were converted to integer format to maintain consistency and improve readability.
